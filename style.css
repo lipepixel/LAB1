@@ -32,12 +32,6 @@ background-color: rgb(92, 18, 110);;
 .tam46 {font-size:46pt;}
 
 
-#p_amarelo{background-color: darkblue;}
-
-#p_amarelo:hover{
-    color: blue;
-}
-
 div a{
     text-decoration: none;
 }
