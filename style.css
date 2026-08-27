@@ -155,60 +155,128 @@ td {
     background-color: #E8F1F5;
     border-bottom: 1px solid #AFC4D0;
 
-/* CELULAR */
-@media (max-width: 600px) {
 
-    body {
-        margin: 10px;
-    }
-
-    /* Menu */
+@media screen (max-width: 600px) {
     .menu {
         font-size: 16px;
-        display: inline-block;
-        margin: 5px;
-        padding: 7px 9px;
-        font-size: 14px;
+        margin: 4px;
+        padding: 6px 8px;
+    }
+}
+
+    a {
+        margin: 0 3px;
     }
 
-    /* Títulos */
-    h1 {
-        font-size: 26px;
-        padding: 10px 15px;
+
+    /* TÍTULOS */
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 22pt;
+        padding: 10px;
+        border-radius: 10px;
     }
 
-    h2 {
-        font-size: 21px;
-        padding: 9px 13px;
+
+    /* PARÁGRAFOS E LISTAS */
+    p, li {
+        font-size: 12pt;
+        padding: 10px;
+        border-radius: 10px;
     }
 
-    h3 {
-        font-size: 18px;
-    }
 
-    /* Textos */
-    p {
-        font-size: 16px;
-        line-height: 1.5;
-    }
-
-    /* Imagens */
+    /* IMAGENS */
     img {
-        max-width: 100%;
+        max-width: 90%;
         height: auto;
+        margin: 15px auto;
     }
 
-    /* Mapa / iframe */
-    iframe {
-        width: 90%;
-        max-width: 100%;
-        height: 300px;
-    }
 
-    /* Tabelas */
+    /* TABELA */
     table {
         max-width: 100%;
         font-size: 14px;
     }
 
+    th {
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    td {
+        padding: 8px;
+    }
+
+
+    /* DECORAÇÃO DO FUNDO */
+    .forma1 {
+        width: 300px;
+        height: 300px;
+        top: -230px;
+        left: -130px;
+    }
+
+    .forma2 {
+        width: 220px;
+        height: 220px;
+        top: -170px;
+        left: -80px;
+    }
+
+    .forma3 {
+        width: 200px;
+        height: 200px;
+        top: -150px;
+        right: -80px;
+    }
+
+    .forma4 {
+        width: 350px;
+        height: 350px;
+        bottom: -280px;
+        right: -150px;
+    }
+
+    .forma5 {
+        width: 200px;
+        height: 200px;
+        bottom: -150px;
+        left: -80px;
+    }
+
+    .forma6 {
+        width: 120px;
+        height: 120px;
+        top: 25%;
+        left: 5%;
+    }
+
+    .forma7 {
+        width: 70px;
+        height: 70px;
+        top: 38%;
+        right: 5%;
+    }
+
+    .forma8 {
+        width: 100px;
+        height: 100px;
+        bottom: 25%;
+        left: 8%;
+    }
+
+    .forma9 {
+        width: 140px;
+        height: 140px;
+        bottom: 15%;
+        right: 5%;
+    }
+
+
+    /* IFRAME / MAPA */
+    iframe {
+        max-width: 90%;
+        height: 300px;
+    }
 }
