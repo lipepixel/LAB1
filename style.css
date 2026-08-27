@@ -209,12 +209,13 @@ td {
 
     /* MAPA */
     iframe {
-        display: block;
-        width: 95%;
-        max-width: 600px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+    display: block;
+    width: 90%;
+    max-width: 500px;
+    height: 280px;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
 
     /* TABELA */
     table {
