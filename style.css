@@ -156,46 +156,68 @@ td {
     border-bottom: 1px solid #AFC4D0;
 
 
-@media screen (max-width: 600px) {
-    .menu {
-        font-size: 16px;
-        margin: 4px;
-        padding: 6px 8px;
-    }
-}
+/* ===== VERSÃO PARA CELULAR ===== */
 
-    a {
-        margin: 0 3px;
+@media screen and (max-width: 600px) {
+
+    /* FUNDO */
+    body {
+        margin: 0;
+        padding: 10px;
+        overflow-x: hidden;
+    }
+
+
+    /* LINKS / MENU */
+    .menu {
+        display: inline-block;
+        font-size: 18px;
+        margin: 5px;
+        padding: 8px 10px;
     }
 
 
     /* TÍTULOS */
     h1, h2, h3, h4, h5, h6 {
-        font-size: 22pt;
-        padding: 10px;
-        border-radius: 10px;
+        font-size: 24px;
+        padding: 12px;
+        margin: 15px 0;
     }
 
 
-    /* PARÁGRAFOS E LISTAS */
+    /* TEXTOS */
     p, li {
-        font-size: 12pt;
+        font-size: 16px;
         padding: 10px;
-        border-radius: 10px;
+        line-height: 1.5;
     }
 
 
     /* IMAGENS */
     img {
-        max-width: 90%;
+        display: block;
+        width: auto;
+        max-width: 100%;
         height: auto;
         margin: 15px auto;
     }
 
 
+    /* MAPA */
+    iframe {
+        display: block;
+        width: 95%;
+        max-width: 600px;
+        height: 300px;
+        margin: 20px auto;
+    }
+
+
     /* TABELA */
     table {
+        width: 100%;
         max-width: 100%;
+        border-collapse: collapse;
         font-size: 14px;
     }
 
@@ -210,6 +232,7 @@ td {
 
 
     /* DECORAÇÃO DO FUNDO */
+
     .forma1 {
         width: 300px;
         height: 300px;
@@ -273,10 +296,4 @@ td {
         right: 5%;
     }
 
-
-    /* IFRAME / MAPA */
-    iframe {
-        max-width: 90%;
-        height: 300px;
-    }
 }
