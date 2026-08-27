@@ -208,13 +208,12 @@ td {
     }
 
     /* MAPA */
-    iframe {
-    display: block;
+iframe {
     width: 90%;
-    max-width: 500px;
-    height: 280px;
+    max-width: 560px;
+    height: 315px;
     margin: 20px auto;
-    box-sizing: border-box;
+    display: block;
 }
 
     /* TABELA */
