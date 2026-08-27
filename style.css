@@ -15,10 +15,6 @@
     transform: translateY(-2px);
 }
 
-.menu:visited {
-    color: #8f5f73;
-}
-
 a {
     margin: 0 5px;
 }
