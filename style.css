@@ -14,9 +14,15 @@
     background-color: #6fa8bd;
     transform: translateY(-2px);
 }
+
+.menu:visited {
+    color: #8f5f73;
+}
+
 a {
     margin: 0 5px;
 }
+
 
  /* ===== TITULOS, PARAGRAFOS E LISTAS ===== */
 h1, h2, h3, h4, h5, h6{
@@ -28,30 +34,55 @@ background: linear-gradient(135deg, #8fc4d9, #d5edf4);
 color: white;
 font-family: Arial, sans-serif;
 }
- p, li{
-border-radius: 10px;  
-padding: 15px;      
-color: white;   
-font-size: 14pt;    
-   background: linear-gradient(135deg, #8fc4d9, #d5edf4);
- }
-
- ul{
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 30px;
-    box-sizing: border-box;
- }
-
- /* ===== DPS QUE VISITA O SITE ===== */
-
- div a{
-    text-decoration: none;
+p {
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    font-size: 14pt;
+    background: linear-gradient(135deg, #8fc4d9, #d5edf4);
 }
 
-div a:visited{
-    color: red;
+ul, ol {
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 0;
+    box-sizing: border-box;
+    overflow: visible;
+    list-style: none;
+}
+
+li {
+    position: relative;
+    border-radius: 10px;
+    padding: 12px 15px 12px 25px;
+    margin: 7px 0;
+    color: #315f73;
+    font-size: 14pt;
+    background: #f1f8fa;
+    transition: 0.3s ease;
+}
+
+li::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5px;
+    height: 60%;
+    border-radius: 10px;
+    background: #8fc4d9;
+    transition: 0.3s ease;
+}
+
+li:hover {
+    color: white;
+    background: linear-gradient(135deg, #8fc4d9, #d5edf4);
+    transform: scale(1.02);
+}
+
+li:hover::before {
+    background: white;
 }
 
  /* ===== FUNDO DO SITE ===== */
@@ -205,6 +236,9 @@ table a:hover {
         margin: 5px;
         padding: 8px 10px;
     }
+.menu:visited {
+    color: #8f5f73;
+    }
 
     /* TÍTULOS */
     h1, h2, h3, h4, h5, h6 {
@@ -333,5 +367,3 @@ table a:hover {
         bottom: 15%;
         right: 5%;
     }
-
-}
