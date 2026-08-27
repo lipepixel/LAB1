@@ -11,13 +11,13 @@
 h1, h2, h3, h4, h5, h6{
 font-size: 30pt;
 text-align: center;
-background-color: rgb(92, 18, 110);
+background-color: rgb(190, 215, 230);
 color: white;
 }
  p, li{
 color: white;   
 font-size: 14pt;    
-background-color: rgb(92, 18, 110);;
+background-color: rgb(190, 215, 230);;
  }
 
 
@@ -42,11 +42,19 @@ div a:visited{
 }
 
 body{
-    background-color: rgb(212, 201, 228);
+    background-color: rgb(235, 245, 250);
 }
 
 img {
     object-fit: cover;
     display: block;
     margin: 0 auto;
+}
+
+table tr:hover td {
+ background-color: rgb(183, 218, 236);
+}
+
+ul li:hover {
+  transform: scale(1.1);
 }
