@@ -157,7 +157,6 @@ td {
 
 
 /* ===== VERSÃO PARA CELULAR ===== */
-
 @media screen and (max-width: 600px) {
 
     html {
@@ -165,8 +164,7 @@ td {
         overflow-x: hidden;
     }
 
-    /* FUNDO */
- body {
+    body {
         width: 100%;
         max-width: 100%;
         margin: 0 auto;
@@ -176,7 +174,6 @@ td {
         text-align: center;
     }
 
-
     /* LINKS / MENU */
     .menu {
         display: inline-block;
@@ -184,7 +181,6 @@ td {
         margin: 5px;
         padding: 8px 10px;
     }
-
 
     /* TÍTULOS */
     h1, h2, h3, h4, h5, h6 {
@@ -194,18 +190,16 @@ td {
         margin: 15px 0;
     }
 
-
     /* TEXTOS */
     p, li {
-        text-align: ;
+        text-align: center;
         font-size: 16px;
         padding: 10px;
         line-height: 1.5;
     }
 
-
     /* IMAGENS */
-   img {
+    img {
         max-width: 100%;
         height: auto;
         display: block;
@@ -213,10 +207,8 @@ td {
         margin-right: auto;
     }
 
-
-
     /* MAPA */
-      iframe {
+    iframe {
         display: block;
         width: 95%;
         max-width: 600px;
@@ -224,10 +216,8 @@ td {
         margin-right: auto;
     }
 
-
-
     /* TABELA */
-  table {
+    table {
         width: 100%;
         max-width: 100%;
         margin-left: auto;
