@@ -22,8 +22,8 @@ a {
 
  /* ===== TITULOS, PARAGRAFOS E LISTAS ===== */
 h1, h2, h3, h4, h5, h6{
-border-radius: 10px;  
-padding: 15px;  
+border-radius: 10px;
+padding: 15px;
 font-size: 30pt;
 text-align: center;
 background: linear-gradient(135deg, #8fc4d9, #d5edf4);
@@ -364,3 +364,76 @@ table a:hover {
         bottom: 15%;
         right: 5%;
     }
+
+/* ===== GALERIA DE DESENHOS ===== */
+.galeria {
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+.galeria > p {
+    text-align: center;
+    background: none;
+    color: #315f73;
+}
+
+/* Coloca os desenhos lado a lado e permite quebrar a linha. */
+.fotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.desenho {
+    width: 280px;
+    max-width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f1f8fa;
+    border: 2px solid rgb(140, 180, 200);
+    border-radius: 10px;
+}
+
+/* A mesma altura deixa as fotos alinhadas, sem cortar os desenhos. */
+.desenho img {
+    width: 100%;
+    height: 320px;
+    object-fit: contain;
+    margin: 0;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.desenho p {
+    margin: 12px 0 4px;
+    padding: 0;
+    background: none;
+    color: #315f73;
+    font-size: 18px;
+    font-family: 'Segoe Print', 'Comic Sans MS', cursive;
+    text-align: center;
+}
+
+/* ===== TABELA DOS LABS ===== */
+.tabela-labs {
+    width: 95%;
+    max-width: 700px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.tabela-labs th, .tabela-labs td {
+    border: 1px solid rgb(140, 180, 200);
+    padding: 10px;
+    font-size: 16px;
+}
+
+.aviso-labs {
+    background: none;
+    color: #315f73;
+    font-size: 16px;
+    text-align: center;
+}
